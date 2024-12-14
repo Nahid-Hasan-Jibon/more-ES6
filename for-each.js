@@ -4,4 +4,4 @@ const numbers = [1, 2, 5, 6, 7, 8, 15];
 
 const result = numbers.forEach((n) => console.log(n));
 
-console.log(result)
+console.log(result) // undefined because forEach returns nothing
